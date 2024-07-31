@@ -15,6 +15,14 @@ const config: Config = {
       },
     },
   },
+  backgroundTheme: {
+    extend: {
+      colors: {
+        'pantone-moonstone': '#6FA0AC',
+        'muted-coral': '#F4A698'
+      },
+    },
+  },
   plugins: [],
 };
 export default config;
