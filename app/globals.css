@@ -18,12 +18,31 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #6FA0AC;
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6rem; /* p-24 in Tailwind CSS is equivalent to 6rem */
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.box {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 @layer utilities {
