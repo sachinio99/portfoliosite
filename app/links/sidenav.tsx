@@ -12,7 +12,7 @@ const Sidebar = () => {
         // Conditional class based on isOpen 
         // state to control width and visibility
         className={`bg-pantone-moonstone text-white 
-            fixed h-screen transition-[width,overflow] 
+            fixed top-0 left-0 h-screen transition-[width,overflow] 
             duration-500 
             ${isOpen ? 'w-64 overflow-auto' : 'w-0 overflow-hidden'}
         `}>
