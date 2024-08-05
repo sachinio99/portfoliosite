@@ -3,7 +3,8 @@ import Link from 'next/link';
 
 const ContactMe = () => {
   return (
-    <div className="fixed top-0 left-1/2 transform -translate-x-1/2 flex justify-center space-x-6 py-4 bg-pantone-moonstone">
+    <footer className="mt-auto py-4 bg-pantone-moonstone">
+      <div className="flex justify-center space-x-6">
       <Link href="https://www.linkedin.com/in/shahsachinj" target="_blank">
         <Image
           src="/linkedin.jpg"
@@ -37,6 +38,10 @@ const ContactMe = () => {
         />
       </Link>
     </div>
+    <div>
+      <p className="text-center mt-4 text-[#1A2F38]">© 2024 Sachin Shah</p>
+    </div>
+    </footer>
   );
 };
 

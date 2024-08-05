@@ -23,7 +23,6 @@ body {
   padding: 0;
 }
 
-
 .container {
   display: flex;
   min-height: 100vh;
@@ -50,3 +49,4 @@ body {
     text-wrap: balance;
   }
 }
+

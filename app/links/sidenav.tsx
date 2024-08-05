@@ -6,7 +6,7 @@ const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="flex">
+    <div className='flex'>
       {/* Sidebar */}
       <div
         // Conditional class based on isOpen 
@@ -25,13 +25,6 @@ const Sidebar = () => {
               Overview
             </a>
           </div>
-          <div className="mt-4">
-            <a href="/links/curation"
-              className="bg-muted-coral 
-                          hover:text-gray-300">
-              Stuff I've Curated
-            </a>
-          </div>
           {/* Add more sidebar items here */}
           <div className="mt-4">
             <a href="/links/blog"
@@ -45,13 +38,6 @@ const Sidebar = () => {
               className="text-white 
                           hover:text-gray-300">
               Technical Notes
-            </a>
-          </div>
-          <div className='mt-4'>
-            <a href="/links/experience"
-              className="text-white 
-                          hover:text-gray-300">
-              Experience and Resume
             </a>
           </div>
           
@@ -100,3 +86,24 @@ const Sidebar = () => {
 };
 
 export default Sidebar;
+
+
+/*
+ <div className="mt-4">
+            <a href="/links/curation"
+              className="bg-muted-coral 
+                          hover:text-gray-300">
+              Stuff I've Curated
+            </a>
+          </div>
+*/
+
+/*
+<div className='mt-4'>
+            <a href="/links/experience"
+              className="text-white 
+                          hover:text-gray-300">
+              Experience and Resume
+            </a>
+          </div>
+*/
