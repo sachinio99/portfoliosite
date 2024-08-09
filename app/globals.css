@@ -50,3 +50,34 @@ body {
   }
 }
 
+.experience-section {
+  background-color: #6FA0AC; /* Match the teal background color */
+  padding: 3rem 2rem; /* Add some padding */
+  width: 100%; /* Full width */
+}
+
+.experience-container {
+  max-width: 1200px; /* Or whatever max-width your content uses */
+  margin: 0 auto; /* Center the container */
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.experience-item {
+  background-color: rgb(19, 1, 1);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(246, 239, 239, 0.1);
+  color: #130101;
+}
+
+.experience-company {
+  font-weight: bold;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.experience-date {
+  color: #666;
+  font-size: 0.9rem;
+}
+
