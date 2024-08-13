@@ -10,13 +10,17 @@ const notes = [
         link: "https://invincible-moat-f89.notion.site/SysDesign-Examples-f1654d15cca8411e904fece3d90de62f?pvs=4",
     },
     {
-      title: "Data Strcutures and Algorithms",
+      title: "Data Structures and Algorithms",
       link: "https://invincible-moat-f89.notion.site/Interview-CheatSheet-dbad3afb81224446b3ebc5d7ca75d39b?pvs=4",
     },
     {
       title: "Some stuff on encoder-decoder models",
       link: "https://invincible-moat-f89.notion.site/NEURAL-MACHINE-TRANSLATION-BY-JOINTLY-LEARNING-TO-ALIGN-AND-TRANSLATE-5124b18821f041af8188efb0ae00afea?pvs=4",
-  },
+    },
+    {
+        title:"Some notes on Diffusion Models",
+        link: "https://invincible-moat-f89.notion.site/Stable-Diffusion-Notes-b3db0bea9c794fae8002ef7a30dfa1f0?pvs=4"
+    }
     // Add more articles here
 ];
 
